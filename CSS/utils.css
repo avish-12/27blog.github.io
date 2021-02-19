@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@500;600&family=Ubuntu:wght@500&display=swap');
+
+
+:root{
+    --main-bg-color: brown;
+    --font1 :font-family: 'Baloo Bhaina 2', cursive;
+    --font2 :font-family: 'Ubuntu', sans-serif;
+}
+.font1{
+    font-family: var(--font1);
+}
+.font2{
+    font-family: var(--font2);
+}
+
+.max-width-1{
+    max-width: 80vw;
+}
+.max-width-2{
+    max-width: 60vw;
+}
+
+.m-auto{
+    margin: auto;
+}
+.my-2{
+    margin-bottom: 12px;
+    margin-top: 12px;
+}
+.btn{
+    padding: 2px 10px;
+    border: 1px solid black;
+    cursor: pointer;
+    border-radius: 4px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 10%;
+    height: 29.9px;
+    font-size: 16px;
+    
+}
+.form-control{
+
+}
+.form-input{
+    padding: 3px 5px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 4px;
+    margin: 0 13px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 40%;
+}

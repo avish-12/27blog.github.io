@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/utils.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="script" href="index.js">
+    <title>Avish_Blog</title>
+</head>
+
+<body  >
+    <nav class="navigation max-width-1 m-auto">
+        <div class="nav-left">
+
+            <span class="glow"><b>iBlog</b></span>
+            <ul>
+                <li><a href="#"><i class="fa fa-fw fa-home"></i>Home</a></li>
+                <li><a href="/contact.html"><i class="fa fa-fw fa-envelope"></i>Contact</a></li>
+                <li><i class="fa fa-fw fa-user"></i><button onclick="document.getElementById('id01').style.display='block'" >Login</button></a></li>
+                <div id="id01" class="modal">
+  
+                    <form class="modal-content animate" action="/action_page.php" method="post">
+                      <div class="imgcontainer">
+                        <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                        
+                      </div>
+                  
+                      <div class="container">
+                        <label for="uname"><b>Username</b></label>
+                        <input type="text" placeholder="Enter Username" name="uname" required>
+                  
+                        <label for="psw"><b>Password</b></label>
+                        <input type="password" placeholder="Enter Password" name="psw" required>
+                          
+                        <button type="submit" class="Login-btn">Login</button>
+                        <label>
+                          <input type="checkbox" checked="checked" name="remember"> Remember me
+                        </label>
+                      </div>
+                  
+                      <div class="container" style="background-color:#f1f1f1">
+                        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                        <span class="psw">Forgot <a href="#">password?</a></span>
+                      </div>
+                    </form>
+                  </div>
+
+
+            </ul>
+
+
+        </div>
+        <div class="nav-right"></div>
+        <input class="form-input" type="text" placeholder="Article Search">
+        <button class="btn">Search</button>
+    </nav>
+    <br>
+    <div class="icon-bar">
+        <a href="https://www.facebook.com/" class="facebook"><i class="fa fa-facebook"></i></a>
+        <a href="https://twitter.com/?lang=en" class="twitter"><i class="fa fa-twitter"></i></a>
+        <a href="https://gmail.com/" class="google"><i class="fa fa-google"></i></a>
+        <a href="https://www.linkedin.com/" class="linkedin"><i class="fa fa-linkedin"></i></a>
+        <a href="https://www.youtube.com/?gl=IN" class="youtube"><i class="fa fa-youtube"></i></a>
+    </div>
+    <hr>
+    <div class="content max-width-1 m-auto">
+        <div class="content-left">
+            <H1> Startup Kr India</H1><br>
+            <p>A startup defined as an entity that is headquartered in India, which was opened less than 10 years ago,
+                and has an annual turnover less than ₹100 crore (US$14 million).Under this initiative, the government
+                has already launched the I-MADE program, to help Indian entrepreneurs build 10 lakh (1 million) mobile
+                app start-ups, and the MUDRA Bank's scheme (Pradhan Mantri Mudra Yojana), an initiative which aims to
+                provide micro-finance, low-interest rate loans to entrepreneurs from low socioeconomic backgrounds
+
+            </p>
+        </div>
+        <div class="content-right">
+            <img src="img/start.jpg" alt="logo">
+        </div>
+    </div>
+    <div class="m-auto  max-width-1">
+        <hr>
+    </div>
+
+    <div class="home-articles max-width-1 m-auto font1">
+        <h2 style="margin: 5px 5px;font-size: 35px;">Featured articles</h2>
+        <div class="home-article">
+            <div class="home-article-img">
+                <img src="/img/mentor.png" alt="article">
+            </div>
+            <div class="home-article-content font1">
+                <h3>A Chance to Give Back. Mentees are not the only people who benefit from business mentoring. ... By
+                    helping others improve their business skills, business mentors may improve their own skills. They
+                    may be inspired with new ideas, meet new contacts and learn new business strategies from their
+                    mentees</h3>
+                <span></span>
+                <span>21 October,2021</span>
+            </div>
+
+        </div>
+        <div class="home-article">
+            <div class="home-article-img">
+                <img src="/img/growth.jpg" alt="article">
+            </div>
+            <div class="home-article-content font1">
+                <h3>The process of improving some measure of an enterprise's success. Business growth can be achieved either by boosting the top line or revenue of the business with greater product sales or service income, or by increasing the bottom line or profitability of the operation by minimizing costs</h3>
+                <span></span>
+                <span>27 July,2021</span>
+            </div>
+
+        </div>
+        <div class="home-article">
+            <div class="home-article-img">
+                <img src="/img/start1.jpg" alt="article">
+            </div>
+            <div class="home-article-content font1">
+                <h3>What’s not to love about startup mythology? A couple of friends have a great startup idea, grow it from humble beginnings in their garage to unicorn status, and then sell for an enormous sum of money so they never have to work again. Heck yeah!
+
+                    And sure, that happens…every once in a very blue moon. There is so much information out there about startup success, it can be hard to know what is true and what is simply clickbait.......</h3>
+                <span></span>
+                <span>2 July,2021</span>
+            </div>
+
+        </div>
+        <div class="home-article">
+            <div class="home-article-img">
+                <img src="/img/idea.jpg" alt="article">
+            </div>
+            <div class="home-article-content font1">
+                <h3>The business idea creates a reason to invest and it also creates sales and profit. With sales and profits come the scope to invest in more products and services, enabling the business to grow. It is the pure essence of capitalism. All that said, if you have a bad idea, you are more likely to face competition.....</h3>
+                <span></span>
+                <span>26 June,2021</span>
+            </div>
+
+        </div>
+        <div class="home-article">
+            <div class="home-article-img">
+                <img src="/img/networking.png" alt="article">
+            </div>
+            <div class="home-article-content font1">
+                <h3>If truth be told, business networking is an extremely valuable way to develop your knowledge, gain knowledge from the success of others, get new clients and tell others about your business. ... Business networking is the most effective technique to create referrals and build a sustainable and successful business</h3>
+                <span></span>
+                <span>21 June,2021</span>
+            </div>
+
+        </div>
+        <div class="footer">
+            <b>
+                <p>&copy; 2021_Avish_blog.com</p>
+            </b><br>
+           
+            </div>
+
+
+    </div>
+    
+    
+       
+</body>
+
+</html>
